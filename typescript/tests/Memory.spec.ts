@@ -14,4 +14,13 @@ describe('src/Memory', () => {
 
         expect(memory.currentPointerValue()).toBe(1)
     });
+
+    it('should return 2 when increment current pointer twice', () => {
+        const memory = new Memory()
+
+        memory.incrementCurrentPointer()
+        memory.incrementCurrentPointer()
+
+        expect(memory.currentPointerValue()).toBe(2)
+    });
 })

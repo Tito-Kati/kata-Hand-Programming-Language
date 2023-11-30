@@ -8,6 +8,6 @@ export class Memory {
     }
 
     incrementCurrentPointer() {
-        this.value = 1;
+        this.value++;
     }
 }
