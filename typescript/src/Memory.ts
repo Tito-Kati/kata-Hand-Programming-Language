@@ -1,2 +1,7 @@
 
-export class Memory { }
+export class Memory {
+
+    currentPointerValue(): number {
+        return -1;
+    }
+}
