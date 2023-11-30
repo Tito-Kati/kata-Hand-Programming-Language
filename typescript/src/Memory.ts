@@ -2,6 +2,6 @@
 export class Memory {
 
     currentPointerValue(): number {
-        return -1;
+        return 0;
     }
 }
