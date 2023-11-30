@@ -6,4 +6,12 @@ describe('src/Memory', () => {
 
         expect(memory.currentPointerValue()).toBe(0)
     });
+
+    it('should return 1 when increment current pointer', () => {
+        const memory = new Memory()
+
+        memory.incrementCurrentPointer()
+
+        expect(memory.currentPointerValue()).toBe(1)
+    });
 })

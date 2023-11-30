@@ -1,7 +1,13 @@
 
 export class Memory {
 
+    private value: number = 0;
+
     currentPointerValue(): number {
-        return 0;
+        return this.value;
+    }
+
+    incrementCurrentPointer() {
+        this.value = 1;
     }
 }
